@@ -1,0 +1,6 @@
+{
+  "name": "Painel ADM Premium",
+  "description": "Interface visual moderna para Painel ADM com tema escuro neon roxo, azul e verde, menu lateral retrátil e cards operacionais.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

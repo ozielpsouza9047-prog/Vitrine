@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="pwaGrad" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <filter id="pwaGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="#08090f"/>
+  <rect x="16" y="16" width="480" height="480" rx="112" stroke="url(#pwaGrad)" stroke-width="8" stroke-opacity="0.4"/>
+  <!-- Central Diamond Store & Tech Emblem -->
+  <path d="M256 96L396 176V336L256 416L116 336V176L256 96Z" stroke="url(#pwaGrad)" stroke-width="20" stroke-linejoin="round" filter="url(#pwaGlow)"/>
+  <path d="M256 96V416M116 176L396 336M116 336L396 176" stroke="url(#pwaGrad)" stroke-width="12" stroke-linecap="round" stroke-opacity="0.8"/>
+  <circle cx="256" cy="256" r="32" fill="#06b6d4" filter="url(#pwaGlow)"/>
+</svg>
